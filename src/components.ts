@@ -2,10 +2,13 @@ import {AbsoluteFill} from 'remotion';
 import styled from 'styled-components';
 
 export const RADIUS = 30;
-export const color1 = '#e01d67';
-export const color2 = '#79367a';
+export const color1 = '#009485';
+export const color2 = '#2094f3';
+export const bgColor1 = '#2a2e37';
+export const bgColor2 = '#3d4451';
+export const txtColor = '#d1d5db';
 export const Outer = styled(AbsoluteFill)`
-	background-color: white;
+	background-color: black;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 `;
 
@@ -19,7 +22,7 @@ export const Container = styled.div`
 
 export const Panel = styled.div`
 	position: absolute;
-	background-color: white;
+	background-color: ${bgColor1};
 	border-radius: ${RADIUS}px;
 	display: flex;
 	justify-content: center;
@@ -37,6 +40,7 @@ export const Title = styled.div`
 	font-family: -apple-system, BlinkMacSystemFont;
 	font-size: 30px;
 	margin-bottom: 5px;
+	color: ${txtColor};
 `;
 
 export const ColoredText = styled.div`

@@ -1,5 +1,6 @@
 import {Composition} from 'remotion';
 import {MyComposition} from './Composition';
+import {totalDuration} from './sequence';
 
 export const RemotionVideo: React.FC = () => {
 	return (
@@ -7,7 +8,7 @@ export const RemotionVideo: React.FC = () => {
 			<Composition
 				id="HappyNewYear"
 				component={MyComposition}
-				durationInFrames={640}
+				durationInFrames={totalDuration}
 				fps={30}
 				width={1280}
 				height={720}
