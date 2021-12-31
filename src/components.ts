@@ -59,3 +59,7 @@ export const InnerContainer = styled.div`
 	flex-direction: column;
 	text-align: center;
 `;
+
+export const RedText = styled.p`
+	color: red;
+`;

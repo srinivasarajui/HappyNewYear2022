@@ -5,7 +5,7 @@ export const RemotionVideo: React.FC = () => {
 	return (
 		<>
 			<Composition
-				id="MyComposition"
+				id="HappyNewYear"
 				component={MyComposition}
 				durationInFrames={600}
 				fps={30}
